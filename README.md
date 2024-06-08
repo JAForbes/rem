@@ -1,5 +1,7 @@
 # REM REST API
 
+> ⚠️ This is a fork of Leo's REM, I've stood this up temporarily to fix the mithril docs.  This a short term fix, in the future we'll probably change the docs to use a service worker or mock network calls.
+
 [API](#api) | [What REM offers](#what-rem-offers) | [Why REM](#why-rem) | [How it works](#how-it-works) | [About](#about) | [Try it](http://mithril-rem.fly.dev)
 
 A starting point for big dreams.
