@@ -1,6 +1,6 @@
 # REM REST API
 
-[API](#api) | [What REM offers](#what-rem-offers) | [Why REM](#why-rem) | [How it works](#how-it-works) | [About](#about) | [Try it](http://rem-rest-api.herokuapp.com)
+[API](#api) | [What REM offers](#what-rem-offers) | [Why REM](#why-rem) | [How it works](#how-it-works) | [About](#about) | [Try it](http://mithril-rem.fly.dev)
 
 A starting point for big dreams.
 
@@ -8,7 +8,7 @@ REM is a REST API for prototyping. It accepts JSON requests, returns JSON respon
 
 ```javascript
 var xhr = new XMLHttpRequest()
-xhr.open("GET", "http://rem-rest-api.herokuapp.com/api/users", true)
+xhr.open("GET", "http://mithril-rem.fly.dev/api/users", true)
 xhr.withCredentials = true
 xhr.send()
 xhr.onload = function() {
@@ -23,11 +23,11 @@ xhr.onload = function() {
 #### Get a list of things
 
 ```
-GET http://rem-rest-api.herokuapp.com/api/users
+GET http://mithril-rem.fly.dev/api/users
 //or
-GET http://rem-rest-api.herokuapp.com/api/projects
+GET http://mithril-rem.fly.dev/api/projects
 //or
-GET http://rem-rest-api.herokuapp.com/api/[whatever]
+GET http://mithril-rem.fly.dev/api/[whatever]
 ```
 
 Results:
@@ -51,7 +51,7 @@ Optional querystring parameters:
 - `limit`: pagination size. Defaults to `10`
 
 ```
-GET http://rem-rest-api.herokuapp.com/api/[things]?offset=1&limit=10
+GET http://mithril-rem.fly.dev/api/[things]?offset=1&limit=10
 ```
 
 ---
@@ -59,7 +59,7 @@ GET http://rem-rest-api.herokuapp.com/api/[things]?offset=1&limit=10
 #### Get one thing
 
 ```
-GET http://rem-rest-api.herokuapp.com/api/[things]/1
+GET http://mithril-rem.fly.dev/api/[things]/1
 ```
 
 Results:
@@ -77,7 +77,7 @@ Results:
 #### Create new thing
 
 ```
-POST http://rem-rest-api.herokuapp.com/api/[things]
+POST http://mithril-rem.fly.dev/api/[things]
 
 {"firstName": "Lorem", "lastName": "Ipsum"}
 ```
@@ -87,7 +87,7 @@ POST http://rem-rest-api.herokuapp.com/api/[things]
 #### Upsert/replace thing
 
 ```
-PUT http://rem-rest-api.herokuapp.com/api/[things]/1
+PUT http://mithril-rem.fly.dev/api/[things]/1
 
 {"id": 1, "firstName": "Lorem", "lastName": "Ipsum"}
 ```
@@ -97,7 +97,7 @@ PUT http://rem-rest-api.herokuapp.com/api/[things]/1
 #### Delete thing
 
 ```
-DELETE http://rem-rest-api.herokuapp.com/api/[things]/1
+DELETE http://mithril-rem.fly.dev/api/[things]/1
 ```
 
 ---
